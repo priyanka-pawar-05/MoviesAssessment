@@ -1,0 +1,45 @@
+.app {
+  background:grey;
+  color:white;
+}
+@media only screen and (max-width: 1920px) {             /* For 1080p resolution */
+  .app {
+    height: 1080px;
+    padding: 80px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {            /* For 720p resolution */
+  .app {
+    height: 720px;
+    padding: 53px;
+  }
+}
+
+@media only screen and (max-width: 768px) {             /* For iPad */
+  .app {
+    height: 1024px;
+    padding: 53px;
+  }
+}
+
+@media only screen and (max-width: 375px) {            /* For iPhone X */
+  .app {
+    height: 812px;
+    padding: 35px;
+  }
+}
+
+@media only screen and (max-width: 360px) {            /* For 360p resolution */
+  .app {
+    height: 640px;
+    padding: 35px;
+  }
+}
+
+@media only screen and (max-width: 320px) {           /* For iPhone 5/SE */
+  .app {
+    height: 568px;
+    padding: 35px;
+  }
+}
