@@ -3,7 +3,8 @@ import './App.css'
 import Poster from './components/Poster'
 import Filter from "./components/Filter";
 import Metadata from "./components/Metadata";
-function App() {                      //rendering data for Movies App
+
+const App = () => {                      //rendering data for Movies App
   return (
     <div className='app'>
       <h2 className="app_heading" > Movies Recommendation </h2>
@@ -13,4 +14,4 @@ function App() {                      //rendering data for Movies App
     </div>
   );
 }
-export default App
+export default App;
