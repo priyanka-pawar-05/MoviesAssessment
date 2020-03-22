@@ -1,7 +1,11 @@
 import React from "react";
 import './Metadata.css'
-import { connect } from 'react-redux';
-function Metadata({ metadata }) {             //rendering metadata for Movies
+import { useSelector } from 'react-redux';
+
+const Metadata = () => {                              //rendering metadata for Movies
+    const metadata = useSelector(
+        state => state.metadata
+    );
     if (!metadata.title) return null
     return (
         <div className="metadata_wrapper">
@@ -18,10 +22,5 @@ function Metadata({ metadata }) {             //rendering metadata for Movies
         </div>
     );
 }
-const mapStateToProps = state => ({         //mapping metadata state to props
-    metadata: state.metadata
-})
-const mapDispatchToProps = dispatch => ({   //mapping actions to props
-    filterData: (payload) => dispatch({ type: 'UPDATE_FILTER', payload })
-})
-export default connect(mapStateToProps, mapDispatchToProps)(Metadata);
+
+export default Metadata;
