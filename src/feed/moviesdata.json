@@ -20,14 +20,6 @@
       "imageUrl": "https://preview.ibb.co/fn5Xyp/raiders.jpg",
       "releaseDate": 1981
     }, {
-      "id": 4,
-      "type": "poster",
-      "rank": 1,
-      "synopsis": "Deckard (Harrison Ford) is forced by the police Boss (M. Emmet Walsh) to continue his old job as Replicant Hunter. His assignment: eliminate four escaped Replicants from the colonies who have returned to Earth. Before starting the job, Deckard goes to the Tyrell Corporation and he meets Rachel (Sean Young), a Replicant girl he falls in love with.",
-      "title": "Blade Runner",
-      "imageUrl": "https://preview.ibb.co/h9434U/blade_Runner.jpg",
-      "releaseDate": 1982
-    }, {
       "id": 3,
       "type": "poster",
       "rank": 4,
@@ -35,6 +27,14 @@
       "title": "The Terminator",
       "imageUrl": "https://preview.ibb.co/caykJp/terminator.jpg",
       "releaseDate": 1984
+    }, {
+      "id": 4,
+      "type": "poster",
+      "rank": 1,
+      "synopsis": "Deckard (Harrison Ford) is forced by the police Boss (M. Emmet Walsh) to continue his old job as Replicant Hunter. His assignment: eliminate four escaped Replicants from the colonies who have returned to Earth. Before starting the job, Deckard goes to the Tyrell Corporation and he meets Rachel (Sean Young), a Replicant girl he falls in love with.",
+      "title": "Blade Runner",
+      "imageUrl": "https://preview.ibb.co/h9434U/blade_Runner.jpg",
+      "releaseDate": 1982
     }, {
       "id": 5,
       "type": "poster",
