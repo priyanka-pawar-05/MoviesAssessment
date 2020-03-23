@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css'
+import './App.scss'
 import Poster from './components/Poster'
 import Filter from "./components/Filter";
 import Metadata from "./components/Metadata";
