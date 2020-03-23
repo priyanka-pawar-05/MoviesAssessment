@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from 'react-redux';
-import './Poster.css'
+import './Poster.scss'
 import actions from "../actions";
 
 const Poster = () => {                               //rendering posters for Movies

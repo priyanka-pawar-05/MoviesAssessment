@@ -1,5 +1,5 @@
 import React from "react";
-import './Metadata.css'
+import './Metadata.scss'
 import { useSelector } from 'react-redux';
 
 const Metadata = () => {                              //rendering metadata for Movies
